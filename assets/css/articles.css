@@ -1,0 +1,50 @@
+@media screen and (min-width: 576px) {
+  #articles {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fef7e2;
+    color: #752305;
+    margin: 1em;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 2em;
+    justify-items: center;
+    align-items: center;
+    padding: 2em;
+  }
+
+  #articles img {
+    width: 100%;
+    order: 2;
+  }
+
+  .description {
+    margin: 2em;
+    margin-left: 0;
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #articles {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fef7e2;
+    color: #752305;
+    margin: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 2em;
+    padding: 0;
+  }
+
+  #articles img {
+    order: 1;
+    width: 50%;
+    margin: 2em;
+  }
+
+  .description {
+    order: 2;
+    margin: 1em;
+    margin-left: 0;
+  }
+}

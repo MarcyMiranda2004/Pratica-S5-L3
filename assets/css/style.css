@@ -1,0 +1,184 @@
+@media screen and (min-width: 320px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Header - Navbar */
+  header {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+
+  #navigationBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    gap: 1.5em;
+    background-color: #fef7e2;
+    padding: 3em;
+    border-radius: 7em;
+    width: 80%;
+    max-width: 400px;
+  }
+
+  .shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    font-size: 1.8em;
+    font-weight: bold;
+    background-color: #ffdf7f;
+    padding: 1em 2em;
+    border-radius: 2em;
+    width: 100%;
+    text-align: center;
+  }
+
+  .shop img {
+    width: 20%;
+  }
+
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    width: 100%;
+  }
+
+  nav button {
+    background-color: #ffdf7f;
+    border: none;
+    padding: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #752305;
+    border-radius: 2em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+
+  nav button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Main */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    color: #752305;
+  }
+
+  h1 {
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: center;
+    line-height: 1em;
+  }
+
+  /* Articles Card */
+  article {
+    margin-bottom: 2em;
+  }
+
+  #card {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fef7e2;
+    border-radius: 5em;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    color: #752305;
+  }
+
+  #card img {
+    width: 100%;
+    border-top-left-radius: 5em;
+    border-top-right-radius: 5em;
+    height: 16em;
+  }
+
+  .honeyInfo {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .honeyInfo h3 {
+    width: 50%;
+    text-align: center;
+    padding: 1em;
+    padding-bottom: 0;
+  }
+
+  .honeyInfo h3 span {
+    font-weight: 200;
+  }
+
+  .price {
+    font-size: 1.2em;
+    display: block;
+    margin: 0;
+    margin-right: 1em;
+  }
+
+  #card button {
+    background-color: #ffdf7f;
+    border: none;
+    padding: 1em 6em;
+    border-radius: 2em;
+    margin: 1em;
+    font-weight: 600;
+    font-size: 1em;
+  }
+
+  /* Aside */
+  h2 {
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: center;
+    line-height: 1em;
+  }
+
+  #articles {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fef7e2;
+    color: #752305;
+    margin: 1em;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 2em;
+    justify-items: center;
+    align-items: center;
+    padding: 2em;
+    padding-top: 0;
+  }
+
+  #articles h3 {
+    margin-top: 0;
+    font-weight: 800;
+  }
+
+  #articles img {
+    width: 100%;
+    order: 2;
+  }
+
+  .description {
+    margin: 2em;
+    margin-left: 0;
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 576px) {
+}
